@@ -1,0 +1,5 @@
+A step in the right direction, but some implementation issues:
+
+* Instance variables should always be private and then exposed with getters/setters as needed
+* Class names should be singular. So instead of one class that manages a lot of Balls, one class that manages a single Ball, then the Game class contains an array (or List?) of Ball objects.
+* No constructor, everything still hard coded as default variables.
